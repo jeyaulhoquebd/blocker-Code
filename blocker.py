@@ -71,7 +71,7 @@ class WebsiteBlocker:
                             file.write(line)
                     file.truncate()
             
-            time.sleep(10) # প্রতি ১০ সেকেন্ড পর পর চেক করবে
+            time.sleep(10) # প্রতি ১০ সেকেন্ড পর পর চেক করতে হবে 
 
 # মেইন ফাংশন
 if __name__ == "__main__":
